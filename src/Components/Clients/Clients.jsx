@@ -7,13 +7,19 @@ export default function Clients(){
 
         <div className="text-center text-3xl font-extrabold mb-20 border-2 bg-black text-white border-black overflow-hidden">Clients</div>
         <div className="banner">
-            <div className="slider" style={{'--quantity': 6}}>
+            <div className="slider" style={{'--quantity': 12}}>
                 <div className="item" style={{'--position': 1}}><img src="src/assets/client1.jpg" alt="" /></div>
                 <div className="item" style={{'--position': 2}}><img src="src/assets/client2.jpg" alt="" /></div>
-                <div className="item" style={{'--position': 3}}><img src="src/assets/client1.jpg" alt="" /></div>
-                <div className="item" style={{'--position': 4}}><img src="src/assets/client2.jpg" alt="" /></div>
-                <div className="item" style={{'--position': 5}}><img src="src/assets/client1.jpg" alt="" /></div>
-                <div className="item" style={{'--position': 6}}><img src="src/assets/client2.jpg" alt="" /></div>
+                <div className="item" style={{'--position': 3}}><img src="src/assets/client3.jpg" alt="" /></div>
+                <div className="item" style={{'--position': 4}}><img src="src/assets/client1.jpg" alt="" /></div>
+                <div className="item" style={{'--position': 5}}><img src="src/assets/client2.jpg" alt="" /></div>
+                <div className="item" style={{'--position': 6}}><img src="src/assets/client3.jpg" alt="" /></div>
+                <div className="item" style={{'--position': 7}}><img src="src/assets/client1.jpg" alt="" /></div>
+                <div className="item" style={{'--position': 8}}><img src="src/assets/client2.jpg" alt="" /></div>
+                <div className="item" style={{'--position': 9}}><img src="src/assets/client3.jpg" alt="" /></div>
+                <div className="item" style={{'--position': 10}}><img src="src/assets/client1.jpg" alt="" /></div>
+                <div className="item" style={{'--position': 11}}><img src="src/assets/client2.jpg" alt="" /></div>
+                <div className="item" style={{'--position': 12}}><img src="src/assets/client3.jpg" alt="" /></div>
             </div>
             <span className="before-after relative text-3xl font-extrabold">Before & After</span>
 

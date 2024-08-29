@@ -33,6 +33,13 @@ export default function Home() {
 
         setToday(currDay); 
     }
+
+    function redirectToWhatsApp() {
+        window.open("https://wa.me/916397848739?text=Hello%20from%20Wellness%20Gym!", "_blank");
+    }
+    function redirectToCall() {
+        window.location.href = "tel:+916397848739";
+    }
     return (
         <>
             <div className="container">
@@ -52,8 +59,8 @@ export default function Home() {
                             <div className="offer font-extrabold text-xl mt-5 mb-5 text-white"><span className='bg-black p-3 rounded'>Special Offer: ₹3000 for 6 Months</span></div>
                             <div className="deal text-center">The deal ends in <span id="demo">{today}</span></div>
                             <div className="buttons">
-                                <button className="btn btn1">Join now</button>
-                                <button className="btn2">Contact Us</button>
+                                <button onClick={redirectToWhatsApp} className="btn btn1 border-2 ring-2 ring-slate-300 hover:ring-slate-800 hover:bg-slate-200">Join now</button>
+                                <button onClick={redirectToCall} className="btn2 hover:bg-red-600">Contact Us</button>
                             </div>
                         </div>
                         <div className="topright flex items-center justify-center">
@@ -77,7 +84,7 @@ export default function Home() {
                                     <li>Monthly Subscription</li>
                                     <li>No Personal Training</li>
                                     <li>Full Beginner Guidance</li>
-                                    <li><button className="btn">Get your slot Now!</button></li>
+                                    <li><button onClick={redirectToWhatsApp} className="btn hover:bg-red-600">Get your slot Now!</button></li>
                                 </ul>
                             </div>
                             <div className="card">
@@ -87,7 +94,7 @@ export default function Home() {
                                     <li>6 month Subscription</li>
                                     <li>Personal Training Demo</li>
                                     <li>Diet Chart & Advance Guidance</li>
-                                    <li><button className="btn">Get your slot Now!</button></li>
+                                    <li><button onClick={redirectToWhatsApp} className="btn hover:bg-red-600">Get your slot Now!</button></li>
                                 </ul>
                             </div>
                             <div className="card">
@@ -97,7 +104,7 @@ export default function Home() {
                                     <li>Monthly Subscription</li>
                                     <li>Personal Training</li>
                                     <li>Diet Chart & Advance Guidance</li>
-                                    <li><button className="btn">Get your slot Now!</button></li>
+                                    <li><button onClick={redirectToWhatsApp} className="btn hover:bg-red-600">Get your slot Now!</button></li>
                                 </ul>
                             </div>
                         </div>

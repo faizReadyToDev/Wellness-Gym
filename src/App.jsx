@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css'
 import './index.css'
 import Home from './Components/Home/Home'
@@ -19,13 +20,17 @@ function App() {
 
   return (
     <>
-      <Header/>
-      {/* <Gallery/> */}
-      <Home />
-      
-       {/* <About/> */}
-
-      <Footer/>
+      <Router>
+            <Header />
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/gallery" element={<Gallery />} />
+               
+            </Routes>
+            <Footer/>
+        </Router>
+    );
     </>
   )
 }

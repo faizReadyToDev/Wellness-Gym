@@ -65,10 +65,22 @@ const Gallery = () => {
             <video className='h-[50vh]' autoPlay muted loop controls src="src/assets/Gallery-1.mp4"></video>
         </div>
         <div className=''>
-            <video className='h-[50vh]' autoPlay muted loop controls src="src/assets/Gallery-1.mp4"></video>
+            <video className='h-[50vh]' autoPlay muted loop controls src="src/assets/Gallery-2.mp4"></video>
         </div>
         <div className=''>
-            <video className='h-[50vh]' autoPlay muted loop controls src="src/assets/Gallery-1.mp4"></video>
+            <video className='h-[50vh]' autoPlay muted loop controls src="src/assets/Gallery-3.mp4"></video>
+        </div>
+        <div className=''>
+            <video className='h-[50vh]' autoPlay muted loop controls src="src/assets/Gallery-4.mp4"></video>
+        </div>
+        <div className=''>
+            <video className='h-[50vh]' autoPlay muted loop controls src="src/assets/Gallery-5.mp4"></video>
+        </div>
+        <div className=''>
+            <video className='h-[50vh]' autoPlay muted loop controls src="src/assets/Gallery-6.mp4"></video>
+        </div>
+        <div className=''>
+            <video className='h-[50vh]' autoPlay muted loop controls src="src/assets/Gallery-7.mp4"></video>
         </div>
         <div className=''>
             <video className='h-[50vh]' autoPlay muted loop controls src="src/assets/Gallery-1.mp4"></video>
@@ -80,34 +92,34 @@ const Gallery = () => {
                 <img className='item2' style={{'--position2': 2}} src="src/assets/Gallery-2.jpg" alt="" />
                 <img className='item2' style={{'--position2': 3}} src="src/assets/Gallery-3.jpg" alt="" />
                 <img className='item2' style={{'--position2': 4}} src="src/assets/Gallery-4.jpg" alt="" />
-                <img className='item2' style={{'--position2': 5}} src="src/assets/Gallery-1.jpg" alt="" />
-                <img className='item2' style={{'--position2': 6}} src="src/assets/Gallery-2.jpg" alt="" />
-                <img className='item2' style={{'--position2': 7}} src="src/assets/Gallery-3.jpg" alt="" />
-                <img className='item2' style={{'--position2': 8}} src="src/assets/Gallery-4.jpg" alt="" />
-                <img className='item2' style={{'--position2': 9}} src="src/assets/Gallery-1.jpg" alt="" />
-                <img className='item2' style={{'--position2': 10}} src="src/assets/Gallery-2.jpg" alt="" />
-                <img className='item2' style={{'--position2': 11}} src="src/assets/Gallery-3.jpg" alt="" />
-                <img className='item2' style={{'--position2': 12}} src="src/assets/Gallery-4.jpg" alt="" />
-                <img className='item2' style={{'--position2': 13}} src="src/assets/Gallery-1.jpg" alt="" />
-                <img className='item2' style={{'--position2': 14}} src="src/assets/Gallery-2.jpg" alt="" />
-                <img className='item2' style={{'--position2': 15}} src="src/assets/Gallery-3.jpg" alt="" />
-                <img className='item2' style={{'--position2': 16}} src="src/assets/Gallery-4.jpg" alt="" />
-                <img className='item2' style={{'--position2': 1}} src="src/assets/Gallery-1.jpg" alt="" />
-                <img className='item2' style={{'--position2': 2}} src="src/assets/Gallery-2.jpg" alt="" />
-                <img className='item2' style={{'--position2': 3}} src="src/assets/Gallery-3.jpg" alt="" />
-                <img className='item2' style={{'--position2': 4}} src="src/assets/Gallery-4.jpg" alt="" />
-                <img className='item2' style={{'--position2': 5}} src="src/assets/Gallery-1.jpg" alt="" />
-                <img className='item2' style={{'--position2': 6}} src="src/assets/Gallery-2.jpg" alt="" />
-                <img className='item2' style={{'--position2': 7}} src="src/assets/Gallery-3.jpg" alt="" />
-                <img className='item2' style={{'--position2': 8}} src="src/assets/Gallery-4.jpg" alt="" />
-                <img className='item2' style={{'--position2': 9}} src="src/assets/Gallery-1.jpg" alt="" />
-                <img className='item2' style={{'--position2': 10}} src="src/assets/Gallery-2.jpg" alt="" />
-                <img className='item2' style={{'--position2': 11}} src="src/assets/Gallery-3.jpg" alt="" />
-                <img className='item2' style={{'--position2': 12}} src="src/assets/Gallery-4.jpg" alt="" />
-                <img className='item2' style={{'--position2': 13}} src="src/assets/Gallery-1.jpg" alt="" />
-                <img className='item2' style={{'--position2': 14}} src="src/assets/Gallery-2.jpg" alt="" />
-                <img className='item2' style={{'--position2': 15}} src="src/assets/Gallery-3.jpg" alt="" />
-                <img className='item2' style={{'--position2': 16}} src="src/assets/Gallery-4.jpg" alt="" />
+                <img className='item2' style={{'--position2': 5}} src="src/assets/Gallery-5.jpg" alt="" />
+                <img className='item2' style={{'--position2': 6}} src="src/assets/Gallery-6.jpg" alt="" />
+                <img className='item2' style={{'--position2': 7}} src="src/assets/Gallery-7.jpg" alt="" />
+                <img className='item2' style={{'--position2': 8}} src="src/assets/Gallery-8.jpg" alt="" />
+                <img className='item2' style={{'--position2': 9}} src="src/assets/Gallery-9.jpg" alt="" />
+                <img className='item2' style={{'--position2': 10}} src="src/assets/Gallery-10.jpg" alt="" />
+                <img className='item2' style={{'--position2': 11}} src="src/assets/Gallery-11.jpg" alt="" />
+                <img className='item2' style={{'--position2': 12}} src="src/assets/Gallery-1.jpg" alt="" />
+                <img className='item2' style={{'--position2': 13}} src="src/assets/Gallery-2.jpg" alt="" />
+                <img className='item2' style={{'--position2': 14}} src="src/assets/Gallery-3.jpg" alt="" />
+                <img className='item2' style={{'--position2': 15}} src="src/assets/Gallery-4.jpg" alt="" />
+                <img className='item2' style={{'--position2': 16}} src="src/assets/Gallery-5.jpg" alt="" />
+                <img className='item2' style={{'--position2': 1}} src="src/assets/Gallery-6.jpg" alt="" />
+                <img className='item2' style={{'--position2': 2}} src="src/assets/Gallery-7.jpg" alt="" />
+                <img className='item2' style={{'--position2': 3}} src="src/assets/Gallery-8.jpg" alt="" />
+                <img className='item2' style={{'--position2': 4}} src="src/assets/Gallery-9.jpg" alt="" />
+                <img className='item2' style={{'--position2': 5}} src="src/assets/Gallery-10.jpg" alt="" />
+                <img className='item2' style={{'--position2': 6}} src="src/assets/Gallery-11.jpg" alt="" />
+                <img className='item2' style={{'--position2': 7}} src="src/assets/Gallery-1.jpg" alt="" />
+                <img className='item2' style={{'--position2': 8}} src="src/assets/Gallery-2.jpg" alt="" />
+                <img className='item2' style={{'--position2': 9}} src="src/assets/Gallery-3.jpg" alt="" />
+                <img className='item2' style={{'--position2': 10}} src="src/assets/Gallery-4.jpg" alt="" />
+                <img className='item2' style={{'--position2': 11}} src="src/assets/Gallery-5.jpg" alt="" />
+                <img className='item2' style={{'--position2': 12}} src="src/assets/Gallery-6.jpg" alt="" />
+                <img className='item2' style={{'--position2': 13}} src="src/assets/Gallery-8.jpg" alt="" />
+                <img className='item2' style={{'--position2': 14}} src="src/assets/Gallery-7.jpg" alt="" />
+                <img className='item2' style={{'--position2': 15}} src="src/assets/Gallery-9.jpg" alt="" />
+                <img className='item2' style={{'--position2': 16}} src="src/assets/Gallery-10.jpg" alt="" />
             </div>
         </div>
     </div>

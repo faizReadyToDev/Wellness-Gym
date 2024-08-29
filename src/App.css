@@ -218,12 +218,11 @@
   gap: 10px;
   position: relative;
   width: calc(250px * (16 *2));
-  animation: sliderRun 18s linear infinite;
+  animation: sliderRun 10s linear infinite;
 }
 .slider2 .list2 .item2{
   width: var(--width);
   height: var(--height);
-  /* animation-delay: calc((10s / var(--quantity2)) * (var(--position2) -1)); */
   flex-shrink: 0;
 }
 
@@ -234,4 +233,8 @@
   to {
     transform: translateX(calc(-250px * 16));
   }
+}
+
+.slider2 .list2:hover{
+  animation-play-state: paused;
 }

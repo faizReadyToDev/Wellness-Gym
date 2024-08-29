@@ -2,6 +2,9 @@ import React from "react";
 
 
 export default function Timing() {
+    function redirectToWhatsApp() {
+        window.open("https://wa.me/916397848739?text=Hello%20from%20Wellness%20Gym!", "_blank");
+    }
     return (
         <>
         <hr />
@@ -11,7 +14,7 @@ export default function Timing() {
             <h1 className="text-xl mb-4 font-semibold border-2 p-3 border-black">Girls Timing - Monday to Saturday: 10:00 AM – 3:00 PM</h1>
             <h1 className="text-xl mb-4 font-semibold border-2 p-3 border-black">Boys Timing - Monday to Saturday: 3:00 PM – 10:00 PM</h1>
             <h1 className="text-xl mb-4 font-semibold border-2 p-3 border-black bg-red-700 text-white rounded-3xl cursor-pointer">Sunday OFF!</h1>
-            <button className="bg-blue-800 p-2  text-white rounded border-0 hover:bg-blue-500 cursor-pointer">For More Details</button>
+            <button onClick={redirectToWhatsApp} className="text-xl bg-blue-500 px-4 py-2 mt-5 text-white rounded border-0 shadow-xl ring-2 ring-slate-500 hover:bg-blue-800 hover:ring-slate-800 cursor-pointer">For More Details</button>
 
         </div>
         <hr />
