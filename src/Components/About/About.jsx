@@ -10,7 +10,7 @@ export default function About() {
         <>
         
             <div className="logo-about w-[65vw] mx-auto justify-center items-center text-center mt-28 mb-20">
-                <span className="h1-about text-center text-3xl font-extrabold relative z-2 bottom-14">ABOUT THE <span className="text-orange-500 font-extrabold">GYM</span></span>
+                <span className="h1-about text-center text-3xl font-extrabold relative z-2 bottom-14 bg-slate-100">ABOUT THE <span className="text-orange-500 font-extrabold">GYM</span></span>
            
                 <div class="p-6 text-white bg-black p-about flex flex-col justify-center items-center">
                     <div className="w-70 items-center mx-auto justify-space-center text-center">

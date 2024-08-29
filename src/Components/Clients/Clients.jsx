@@ -21,7 +21,7 @@ export default function Clients(){
                 <div className="item" style={{'--position': 11}}><img src="src/assets/client2.jpg" alt="" /></div>
                 <div className="item" style={{'--position': 12}}><img src="src/assets/client3.jpg" alt="" /></div>
             </div>
-            <span className="before-after relative text-3xl font-extrabold">Before & After</span>
+            <span className="before-after relative text-3xl font-extrabold bg-slate-100 text-black">Before & After</span>
 
         </div>
         </div>
