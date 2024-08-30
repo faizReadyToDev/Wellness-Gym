@@ -50,7 +50,7 @@ ul{
 
 .topleft{
     width: 50%;
-    height: 70vh;
+    /* height: 70vh; */
     background-color: #ffffff;
     /* border: 0.5px solid rgb(202, 184, 184); */
     border-right: 1px solid black;
@@ -213,3 +213,47 @@ hr{
   background-color: rgba(35, 36, 35, 0.345);
  
 }
+
+@media screen and (max-width: 750px) {
+    nav{
+      width: 100vw;
+    }
+    ul li{
+      font-size: 10px;
+    }
+    .logo img{
+        height: 80px;
+        width: 250px;
+        cursor: pointer;
+        padding-left: 0px;
+    }
+    .topleft img {
+        width: 100px;
+        height: 100px;
+    }
+  }
+@media screen and (max-width: 435px) {
+    nav{
+      width: 100vw;
+    }
+    Header{
+      width: 100vw;
+    }
+    ul li{
+      font-size: 7px;
+    }
+    .logo img{
+        height: 80px;
+        width: 80px;
+        cursor: pointer;
+        padding-left: 0px;
+    }
+    .topleft img {
+      width: 100px;
+      height: 100px;
+    }
+    .topleft{
+        width: 100vw;
+        height: auto;
+    }
+  }
