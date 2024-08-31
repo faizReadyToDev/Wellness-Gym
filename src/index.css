@@ -10,6 +10,10 @@
     font-weight: 500;
     font-style: normal;
 }
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
 .logo{
     display: flex;
     align-items: center;
@@ -50,7 +54,7 @@ ul{
 
 .topleft{
     width: 50%;
-    /* height: 70vh; */
+    height: 70vh;
     background-color: #ffffff;
     /* border: 0.5px solid rgb(202, 184, 184); */
     border-right: 1px solid black;

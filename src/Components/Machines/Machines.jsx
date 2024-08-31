@@ -10,7 +10,7 @@ export default function Machines(){
             <div className="border-2 p-3 border-black w-full bg-black  mb-5">
                 <h1 className="text-3xl font-extrabold text-center text-white cursor-pointer">Available Machines</h1>
             </div>
-            <div className="grid grid-cols-3 gap-10">
+            <div className="grid grid-cols-3 gap-10 h-[50vh] overflow-auto max-h-[50vh] mt-10">
                     <div>
                         <img class="w-72 h-82" src="src/assets/Machine-1.jpg" alt="" />
                         <h1 className=" font-extrabold text-center text-black">Seated & Horizontal Shoulder Press</h1>

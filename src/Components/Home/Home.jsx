@@ -110,7 +110,7 @@ export default function Home() {
                         </div>
                     </section>
                     <hr />
-                    <section className="section3">
+                    <section className="section3 min-h-[50vh]">
                         <h1 className="">Compare Plans</h1>
                         <div className="plantable">
                             <table className="table ">

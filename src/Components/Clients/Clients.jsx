@@ -3,7 +3,7 @@ import React from "react";
 export default function Clients(){
     return(
         <>
-        <div className="clientsDiv mt-20">
+        <div className="clientsDiv mt-20 relative" >
 
         <div className="text-center text-3xl font-extrabold mb-20 border-2 bg-black text-white border-black overflow-hidden">Clients</div>
         <div className="banner">

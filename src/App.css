@@ -1,3 +1,6 @@
+:root{
+  overflow-x: hidden;
+}
 @property --angle{ 
   syntax: '<angle>';
   initial-value: 0deg;
@@ -238,5 +241,23 @@
 .slider2 .list2:hover{
   animation-play-state: paused;
 }
+/* Dark Scrollbar */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #2c2c2c; /* Background color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4a4a4a; /* Background color of the scroll thumb */
+  border-radius: 6px; /* Rounded corners for the scroll thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6a6a6a; /* Color when hovering over the scroll thumb */
+}
+
 
 
