@@ -12,51 +12,51 @@ export default function Machines(){
             </div>
             <div className="grid grid-cols-3 gap-10 h-[50vh] overflow-auto max-h-[50vh] mt-10">
                     <div>
-                        <img class="w-72 h-82" src="src/assets/Machine-1.jpg" alt="" />
+                        <img class="w-72 h-82" src="assets/Machine-1.jpg" alt="" />
                         <h1 className=" font-extrabold text-center text-black">Seated & Horizontal Shoulder Press</h1>
                     </div>
                     <div>
-                        <img class="w-72 h-82" src="src/assets/Machine-2.jpg" alt="" />
+                        <img class="w-72 h-82" src="assets/Machine-2.jpg" alt="" />
                         <h1 className=" font-extrabold text-center text-black">Pec Fly Rear Delt</h1>
                     </div>
                     <div>
-                        <img class="w-72 h-82" src="src/assets/Machine-3.jpg" alt="" />
+                        <img class="w-72 h-82" src="assets/Machine-3.jpg" alt="" />
                         <h1 className=" font-extrabold text-center text-black">Leg Extension & Leg Curl</h1>
                     </div>
                     <div>
-                        <img class="w-72 h-82" src="src/assets/Machine-4.jpg" alt="" />
+                        <img class="w-72 h-82" src="assets/Machine-4.jpg" alt="" />
                         <h1 className=" font-extrabold text-center text-black">High Pulley Row</h1>
                     </div>
                     <div>
-                        <img class="w-72 h-82" src="src/assets/Machine-5.jpg" alt="" />
+                        <img class="w-72 h-82" src="assets/Machine-5.jpg" alt="" />
                         <h1 className=" font-extrabold text-center text-black">Commercial Treadmill</h1>
                     </div>
                     <div>
-                        <img class="w-72 h-82" src="src/assets/Machine-6.jpg" alt="" />
+                        <img class="w-72 h-82" src="assets/Machine-6.jpg" alt="" />
                         <h1 className=" font-extrabold text-center text-black">Multi Bench</h1>
                     </div>
                     <div>
-                        <img class="w-72 h-82" src="src/assets/Machine-7.jpeg" alt="" />
+                        <img class="w-72 h-82" src="assets/Machine-7.jpeg" alt="" />
                         <h1 className=" font-extrabold text-center text-black">Squat Rack</h1>
                     </div>
                     <div>
-                        <img class="w-72 h-82" src="src/assets/Machine-8.jpeg" alt="" />
+                        <img class="w-72 h-82" src="assets/Machine-8.jpeg" alt="" />
                         <h1 className=" font-extrabold text-center text-black">Flat Bench</h1>
                     </div>
                     <div>
-                        <img class="w-72 h-82" src="src/assets/Machine-9.jpg" alt="" />
+                        <img class="w-72 h-82" src="assets/Machine-9.jpg" alt="" />
                         <h1 className=" font-extrabold text-center text-black">Decline Bench(luxury)</h1>
                     </div>
                     <div>
-                        <img class="w-72 h-82" src="src/assets/Machine-10.jpg" alt="" />
+                        <img class="w-72 h-82" src="assets/Machine-10.jpg" alt="" />
                         <h1 className=" font-extrabold text-center text-black">Adjustable Web Board</h1>
                     </div>
                     <div>
-                        <img class="w-72 h-82" src="src/assets/Machine-11.jpg" alt="" />
+                        <img class="w-72 h-82" src="assets/Machine-11.jpg" alt="" />
                         <h1 className=" font-extrabold text-center text-black">Incline Bench (luxury)</h1>
                     </div>
                     <div>
-                        <img class="w-72 h-82" src="src/assets/Machine-12.jpg" alt="" />
+                        <img class="w-72 h-82" src="assets/Machine-12.jpg" alt="" />
                         <h1 className=" font-extrabold text-center text-black">Smith Machine</h1>
                     </div>
             </div>

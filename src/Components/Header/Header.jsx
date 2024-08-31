@@ -18,7 +18,7 @@ export default function Header() {
          <header className='flex'>
                     <nav className='flex justify-between'>
                         <div className="logo items-center">
-                            <img src="src/assets/wellnesslogo.jpg" alt="" />
+                            <img src="assets/wellnesslogo.jpg" alt="" />
                         </div>
                         <ul className='flex justify-center items-center'>
                             <li>

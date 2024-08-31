@@ -17,7 +17,7 @@ export default function About() {
                         <div className="flex justify-center items-center mx-auto">
                             <p class="text-center text-lg font-bold"> "WELLNESS GYM" is founded with a deep understanding of the way the fitness industry behaves. Having a rich experience of 23 years into the gym and fitness arena. Gym has 2 A/c's & multiple types of machines to workout with. Owner of Gym Mr. Mukeem Miya also provide "Personal Training".</p>
                             <div className="bg-white p-10">
-                            <img className="aboutlogo" src="src/assets/aboutlogo.jpg" alt="" />
+                            <img className="aboutlogo" src="assets/aboutlogo.jpg" alt="" />
                             </div>
                         </div>
                     </div>

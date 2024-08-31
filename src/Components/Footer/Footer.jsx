@@ -19,24 +19,24 @@ export default function Footer() {
 
                 <div className="grid grid-cols-2 justify-between  gap-x-64 ml-10">
                     <div className="">
-                        <img className="footerlogo" src="src/assets/wellnesslogo.jpg" alt="" />
+                        <img className="footerlogo" src="assets/wellnesslogo.jpg" alt="" />
                         <p className="text-sm mt-5 mb-5">
                         "WELLNESS GYM is founded with a deep understanding of the way the fitness industry behaves."
                         </p>
                         <div className="flex ml-10">
-                            <img onClick={redirectToWhatsApp} className=" cursor-pointer" src="src/assets/whatsapplogo.png" alt="" />
-                            <img onClick={redirectToInstagram} className=" cursor-pointer" src="src/assets/insta.png" alt="" />
+                            <img onClick={redirectToWhatsApp} className=" cursor-pointer" src="assets/whatsapplogo.png" alt="" />
+                            <img onClick={redirectToInstagram} className=" cursor-pointer" src="assets/insta.png" alt="" />
                         </div>
                     </div>
                     <div className="mr-10">
                         <h1 className="text-2xl font-extrabold text-center mb-5">Get In Touch</h1>
                         <div>
                             <div className="flex mb-5">
-                                <img onClick={redirectToMap} className="footerlocation cursor-pointer" src="src/assets/locationicon.jpeg" alt="" />
+                                <img onClick={redirectToMap} className="footerlocation cursor-pointer" src="assets/locationicon.jpeg" alt="" />
                                 <p onClick={redirectToMap} className="cursor-pointer">Main Market, Jail Rd, Kuncha Lala Miyan, Rampur, Uttar Pradesh - 244901</p>
                             </div >
                             <div className="flex mb-5">
-                                <img onClick={redirectToCall} className="cursor-pointer" src="src/assets/callicon.png" alt="" />
+                                <img onClick={redirectToCall} className="cursor-pointer" src="assets/callicon.png" alt="" />
                                 <p onClick={redirectToCall} className="cursor-pointer">+91 6397848739</p>
                             </div>
                         </div>
