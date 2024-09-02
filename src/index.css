@@ -522,6 +522,32 @@ hr{
     }
     
   }
+@media screen and (max-width: 385px) {
+    nav{
+      width: 100vw;
+    }
+    Header{
+      width: 100vw;
+    }
+    ul li{
+      font-size: 7px;
+    }
+    .sec1{
+        width: 100vw;
+    }
+   
+    .topright{
+        height:45vh;
+    }
+    .tagline{
+        right: 30%;
+    }
+
+    footer{
+        height: 50vh;
+    }
+    
+  }
 @media screen and (max-width: 345px) {
     nav{
       width: 100vw;
