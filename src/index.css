@@ -80,7 +80,7 @@ ul{
     height: 50%;
 }
 
-p{
+.topleft p{
     padding: 0 40px;
     margin-left: 10px;
     margin-right: 10px;
@@ -102,11 +102,14 @@ p{
 }
 .cardContainer{
     gap: 80px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .card{
     border: 2px solid black;
-    width: 20vw;
+    width: 250px;
     border-radius: 4px;
+    
 }
 .sec2 ul li{
     list-style: none;
@@ -171,7 +174,7 @@ p{
 footer{
     width: 80vw;
     margin: auto;
-    height: 55px;
+    height: 40vh;
 }
 hr{
     width: 80vw;
@@ -218,12 +221,66 @@ hr{
  
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1210px) {
+    .h1-about{
+        font-size: 20px;
+    }
+    .about-div{
+        flex-direction: column;
+    }
+    .about-location{
+        flex-direction: column;
+        background-color: white;
+        width: 100vw;
+        gap:0;
+    }
+    .address{
+        text-align: center;
+    }
+    .about-address{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        background-color: #080808;
+        width: 100vw;
+    }
+    .about-contact{
+        display: block;
+    }
+    .logo-about{
+        width: 100vw;
+    }
+}
+@media screen and (max-width: 1027px) {
+    .sec2{
+        width: 100vw;
+    }
+    .Gallery-interior-h1{
+        width: 100vw;
+     }
+     .Gallery-interior{
+        width: 100vw;
+     }
+     .Gallery-gym-h1{
+        width: 100vw;
+     }
+     .Gallery-gym{
+        width: 100vw;
+     }
+     .interior-grid{
+         grid-template-columns: repeat(2, 1fr);
+         gap: 10px;
+         padding: 0;
+     }
+     .gym-grid{
+         grid-template-columns: repeat(2, 1fr);
+         gap: 10px;
+         padding: 0;
+     }
+  }
+@media screen and (max-width: 1027px) {
     nav{
       width: 100vw;
-    }
-    ul li{
-      font-size: 10px;
     }
     .logo img{
         height: 80px;
@@ -235,8 +292,237 @@ hr{
         width: 100px;
         height: 100px;
     }
+    .sec1{
+        width: 100vw;
+    }
+    .sec2{
+        width: 100vw;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    footer{
+        width: 100vw;
+        height: 35vh;
+    }
+    .footerlogo{
+        margin-left: 0px;
+    }
+    .footer-first{
+        width: 100vw;
+        margin-left: 0;
+    }
+    .map-location{
+        gap:0;
+    }
+    .phone-call{
+        gap:0;
+    }
+    .design-by{
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    .address{
+        text-align: start;
+    }
+  }
+@media screen and (max-width: 840px) {
+    .about-div{
+        flex-direction: column;
+    }
+    .about-location{
+        flex-direction: column;
+        background-color: white;
+        width: 100vw;
+        gap:0;
+    }
+    .about-address{
+        display: flex;
+        flex-direction: column;
+        background-color: #080808;
+        width: 100vw;
+    }
+    .about-contact{
+        display: block;
+    }
+    .logo-about{
+        width: 100vw;
+    }
+}
+@media screen and (max-width: 840px) {
+    nav{
+      width: 100vw;
+      position: relative;
+    }
+    nav ul li{
+        flex-direction: column;
+        font-size: 20px;
+    }
+    .menu{
+        display: flex;
+    }
+    .close{
+        display: flex;
+    }
+    nav ul{
+        padding-right: 0;
+        flex-direction: column;
+        gap: 20px;
+        position: absolute;
+        top: 0px;
+        right: -300px;
+        z-index: 10;
+        background-color: #080808;
+        color: white;
+        height: 500px;
+        width: 300px;
+        transition: all 0.75s ease-in-out;
+    }
+    .tagline{
+        right: 32%;
+    }
+    nav ul li:last-child{
+        background-color: white;
+        color:#080808
+    }
+    .logo img{
+        height: 80px;
+        width: 250px;
+        cursor: pointer;
+        padding-left: 0px;
+    }
+    .sec1{
+        width: 100vw;
+    }
+    .sec2{
+        width: 100vw;
+    }
+    .section3{
+        width: 100vw;
+    }
+    
+    .topleft{
+        width: 50vw;
+        height: auto;
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    .sec1{
+        flex-direction: column;
+    }
+    .topleft  {
+        width: 100vw;
+    }
+    .topright  {
+        width: 100vw;
+    }
+    .topright{
+        height:40vh;
+    }
+    .tagline{
+        right: 38%;
+    }
+
+  }
+
+@media screen and (max-width: 550px) {
+ 
+    .tagline{
+        right: 36%;
+    }
+    
   }
 @media screen and (max-width: 435px) {
+    nav{
+      width: 100vw;
+    }
+    Header{
+      width: 100vw;
+    }
+    .sec1{
+        width: 100vw;
+    }
+   
+    .topright{
+        height:35vh;
+    }
+    .tagline{
+        right: 32%;
+    }
+    .footer-logo{
+        padding-left: 0;
+        padding-right: 20px;
+    }
+    .get-in{
+        margin-right: 0;
+        padding-left: 20px;
+    }
+    .design-by{
+        margin-top: 35px;
+    }
+    .design{
+        gap: 0;
+    }
+    .h1-about{
+        font-size: 20px;
+    }
+    .about-div{
+        flex-direction: column;
+    }
+    .about-location{
+        flex-direction: column;
+        background-color: white;
+        width: 100vw;
+        gap:0;
+    }
+    .about-address{
+        display: flex;
+        flex-direction: column;
+        background-color: #080808;
+        width: 100vw;
+    }
+    .about-contact{
+        display: block;
+    }
+    .logo-about{
+        width: 100vw;
+    }
+
+    footer{
+        height: 34vh;
+    }
+    .footer-p{
+        display: none;
+    }
+    .footer-logos{
+        gap: 10px;
+        margin-top: 10%;
+    }
+    .Gallery-interior-h1{
+       width: 100vw;
+    }
+    .Gallery-interior{
+       width: 100vw;
+    }
+    .Gallery-gym-h1{
+       width: 100vw;
+    }
+    .Gallery-gym{
+       width: 100vw;
+    }
+    .interior-grid{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding: 0;
+    }
+    .gym-grid{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding: 0;
+    }
+    
+  }
+@media screen and (max-width: 345px) {
     nav{
       width: 100vw;
     }
@@ -246,18 +532,37 @@ hr{
     ul li{
       font-size: 7px;
     }
-    .logo img{
-        height: 80px;
-        width: 80px;
-        cursor: pointer;
-        padding-left: 0px;
-    }
-    .topleft img {
-      width: 100px;
-      height: 100px;
-    }
-    .topleft{
+    .sec1{
         width: 100vw;
-        height: auto;
     }
+   
+    .topright{
+        height:35vh;
+    }
+    .tagline{
+        right: 30%;
+    }
+    
+  }
+@media screen and (max-width: 285px) {
+    nav{
+      width: 100vw;
+    }
+    Header{
+      width: 100vw;
+    }
+    ul li{
+      font-size: 7px;
+    }
+    .sec1{
+        width: 100vw;
+    }
+   
+    .topright{
+        height:35vh;
+    }
+    .tagline{
+        right: 20%;
+    }
+    
   }

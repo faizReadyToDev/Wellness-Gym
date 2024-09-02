@@ -56,7 +56,7 @@ export default function Home() {
                             <p>
                                 "Get fit at the best gym in town! Join now for state-of-the-art equipment, expert trainers, and a motivating environment. Your fitness journey starts here. Sign up today!"
                             </p>
-                            <div className="offer font-extrabold text-xl mt-5 mb-5 text-back "><span className='bg-white p-3 rounded'>Special Offer: ₹3000 for 6 Months</span></div>
+                            <div className="offer font-extrabold md:text-xl mt-5 mb-5 text-back "><span className='bg-white p-3 rounded'>Special Offer: ₹3000 for 6 Months</span></div>
                             <div className="deal text-center">The deal ends in <span id="demo">{today}</span></div>
                             <div className="buttons">
                                 <button onClick={redirectToWhatsApp} className="btn btn1 border-2 ring-2 ring-slate-300 hover:ring-slate-800 hover:bg-slate-200">Join now</button>

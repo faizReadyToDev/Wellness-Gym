@@ -41,8 +41,8 @@
 .offer::before,.offer::after{
   content: "";
   position: absolute;
-  height: 50px;
-  width: 328px;
+  height: 180%;
+  width: 102%;
   background-image: conic-gradient(from var(--angle),transparent 0%,red,blue,pink,green,orange,rgb(4, 4, 255),white ,rgb(155, 13, 13));
   top: 50%;
   left: 50%;
@@ -91,14 +91,6 @@
   }
 }
 
-/* .logo-about{
-  background-image: url('src/assets/dumble.jpg'),url('src/assets/wellnesslogo.jpg');
-  background-repeat: no-repeat,no-repeat;
-  background-position: left, right;
-  background-size: 20%, 10%;
- 
-} */
-
 .aboutlogo{
   width: 1020px;
   height: 200px;
@@ -138,8 +130,8 @@
 
 .banner .slider{
   position: absolute;
-  width: 150px;
-  height: 150px;
+  width: 210px;
+  height: 180px;
   top:10%;
   left: calc(50% - 100px);
   transform-style: preserve-3d;
@@ -169,7 +161,7 @@
 }
 
 .clientsDiv{
-  background-color: #D2D2D2;
+  background-color: #ffffff;
   background-image:
   repeating-linear-gradient(
       to right, transparent 0 100px,
@@ -211,7 +203,7 @@
   background-color: black;
   margin: auto;
   overflow: hidden;
-  width: 70vw;
+  width: 80vw;
   height: var(--height);
   position: relative;
 }
@@ -258,6 +250,40 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #6a6a6a; /* Color when hovering over the scroll thumb */
 }
+
+
+
+@media screen and (max-width: 670px) {
+.banner{
+  height: 70vh;
+}
+  
+}
+/* 
+@media screen and (max-width: 538px) {
+.offer{
+  font-size: 14px;
+}
+  
+}
+@media screen and (max-width: 468px) {
+.offer{
+  font-size: 12px;
+}
+  
+}
+@media screen and (max-width: 417px) {
+.offer{
+  font-size: 10px;
+}
+  
+}
+@media screen and (max-width: 350px) {
+.offer{
+  font-size: 8px;
+}
+  
+} */
 
 
 

@@ -1,5 +1,6 @@
 import React from "react";
 import {NavLink} from "react-router-dom";
+import { useState } from "react";
 
 export default function Header() {
 
@@ -12,15 +13,26 @@ export default function Header() {
     function redirectToCall() {
         window.location.href = "tel:+916397848739";
     }
+
+    const [menuPosition, setMenuPosition] = useState('-300px');
+
+    const toggleMenuPosition = () => {
+      setMenuPosition(menuPosition === '0px' ? '-300px' : '0px');
+    };
     return (
-        
         <>
          <header className='flex'>
                     <nav className='flex justify-between'>
                         <div className="logo items-center">
                             <img src="assets/wellnesslogo.jpg" alt="" />
                         </div>
-                        <ul className='flex justify-center items-center'>
+                        <div id="close" onClick={toggleMenuPosition} className="w-[300px] p-5 absolute right-[0px] z-20 hidden close">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+                        </div>
+                        <div id="menu" onClick={toggleMenuPosition} className="items-center hidden menu">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="42px" viewBox="0 -960 960 960" width="42px" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+                        </div>
+                        <ul style={{ right: menuPosition }} className='flex justify-center items-center'>
                             <li>
                                 <NavLink
                                     to="/"
