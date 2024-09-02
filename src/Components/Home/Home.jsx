@@ -59,13 +59,13 @@ export default function Home() {
                             <div className="offer font-extrabold md:text-xl mt-5 mb-5 text-back "><span className='bg-white p-3 rounded'>Special Offer: ₹3000 for 6 Months</span></div>
                             <div className="deal text-center">The deal ends in <span id="demo">{today}</span></div>
                             <div className="buttons">
-                                <button onClick={redirectToWhatsApp} className="btn btn1 border-2 ring-2 ring-slate-300 hover:ring-slate-800 hover:bg-slate-200">Join now</button>
-                                <button onClick={redirectToCall} className="btn2 hover:bg-red-600">Contact Us</button>
+                                <button onClick={redirectToWhatsApp} className="btn btn1 border-2 z-10 ring-2 ring-slate-300 hover:ring-slate-800 hover:bg-slate-200">Join now</button>
+                                <button onClick={redirectToCall} className="btn2 z-10 hover:bg-red-600">Contact Us</button>
                             </div>
                         </div>
                         <div className="topright flex items-center justify-center">
                             <div className="body-1 flex items-center justify-center absolute">
-                                <img className='ustaad-1 relative bottom-5 cursor-pointer z-1 hover:opacity-0 hover:transition-opacity duration-300' src="assets/Ustaad-1.jpg" alt="" />
+                                <img className='ustaad-1 relative bottom-5 cursor-pointer hover:opacity-0 hover:transition-opacity duration-300' src="assets/Ustaad-1.jpg" alt="" />
                                 <img className="ustaad-2 absolute opacity-0 hover:opacity-100 hover:transition-opacity duration-300 " src="assets/Ustaad-2.jpg" alt="Gym Owner Hover" />
                                 <span className="tagline absolute">"Gym Owner"</span>
                             </div>

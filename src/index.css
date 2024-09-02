@@ -222,6 +222,10 @@ hr{
 }
 
 @media screen and (max-width: 1210px) {
+    .ustaad-2:hover {
+        width: 60%;
+        height: 90%;
+    }
     .h1-about{
         font-size: 20px;
     }
@@ -417,11 +421,12 @@ hr{
         width: 100vw;
     }
     .topright{
-        height:40vh;
+        /* height:40vh; */
     }
     .tagline{
         right: 38%;
     }
+    
 
   }
 
@@ -444,7 +449,11 @@ hr{
     }
    
     .topright{
-        height:35vh;
+        /* height:35vh; */
+    }
+    .ustaad-2:hover {
+        width: 60%;
+        height: 90%;
     }
     .tagline{
         right: 32%;
@@ -542,7 +551,7 @@ hr{
     }
    
     .topright{
-        height:45vh;
+        /* height:45vh; */
     }
     .tagline{
         right: 30%;
@@ -568,7 +577,7 @@ hr{
     }
    
     .topright{
-        height:35vh;
+        /* height:35vh; */
     }
     .tagline{
         right: 30%;
@@ -590,7 +599,7 @@ hr{
     }
    
     .topright{
-        height:35vh;
+        /* height:35vh; */
     }
     .tagline{
         right: 20%;
