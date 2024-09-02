@@ -18,7 +18,7 @@ export default function Footer() {
         window.location.href = "tel:+916397848739";
     }
     return (
-            <footer className="mt-20 relative bottom-0">
+            <footer className="mt-20">
 
                 <div className="footer-first grid grid-cols-2 justify-between  lg:gap-x-64 md:gap-x-10 ml-10">
                     <div className="px-10 footer-logo">

@@ -174,7 +174,7 @@ ul{
 footer{
     width: 80vw;
     margin: auto;
-    height: 40vh;
+    /* height: 40vh; */
 }
 hr{
     width: 80vw;
@@ -302,7 +302,7 @@ hr{
   @media screen and (max-width: 700px) {
     footer{
         width: 100vw;
-        height: 35vh;
+        /* height: 35vh; */
     }
     .footerlogo{
         margin-left: 0px;
@@ -489,7 +489,7 @@ hr{
     }
 
     footer{
-        height: 34vh;
+        /* height: 34vh; */
     }
     .footer-p{
         display: none;
@@ -524,7 +524,7 @@ hr{
   }
 @media screen and (max-width: 425px) {
     footer{
-        height: 38vh;
+        /* height: 38vh; */
     }
 }
 @media screen and (max-width: 385px) {
@@ -549,7 +549,7 @@ hr{
     }
 
     footer{
-        height: 50vh;
+        /* height: 50vh; */
     }
     
   }
