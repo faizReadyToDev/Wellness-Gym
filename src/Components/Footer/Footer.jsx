@@ -34,11 +34,11 @@ export default function Footer() {
                     <div className="mr-10 get-in">
                         <h1 className="text-2xl font-extrabold text-center mb-5">Get In Touch</h1>
                         <div>
-                            <div className="flex mb-5 gap-5 map-location">
+                            <div className="flex mb-5 gap-5 map-location items-center">
                                 <img onClick={redirectToMap} className="footerlocation cursor-pointer" src="assets/locationicon.jpeg" alt="" />
                                 <p onClick={redirectToMap} className="cursor-pointer">Main Market, Jail Rd, Kuncha Lala Miyan, Rampur, Uttar Pradesh - 244901</p>
                             </div >
-                            <div className="flex mb-5 gap-5 phone-call">
+                            <div className="flex mb-5 gap-5 phone-call items-center">
                                 <img onClick={redirectToCall} className="cursor-pointer" src="assets/callicon.png" alt="" />
                                 <p onClick={redirectToCall} className="cursor-pointer">+91 6397848739</p>
                             </div>
@@ -51,7 +51,7 @@ export default function Footer() {
                     <p onClick={redirectToInstagram2} className="cursor-pointer font-bold">Designed and developed by Faiz Ur Rehman</p>
                 </div>
                 <div className="bg-black text-white p-5 w-full text-center text-sm mt-5">
-                copyright &copy; 2024 Wellness | All Rights Reserved
+                copyright &copy; 2024 The Wellness Gym Rampur | All rights reserved
                 </div>
 
             </footer>

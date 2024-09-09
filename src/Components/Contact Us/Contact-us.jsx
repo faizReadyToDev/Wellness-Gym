@@ -28,7 +28,7 @@ export default function ContactUs() {
                     </div>
                     <div className="flex  p-10 flex-col justify-center items-center">
                         <img onClick={redirectToInstagram} className="cursor-pointer" src="assets/insta.png" alt="" />
-                        <h1 onClick={redirectToInstagram} className="font-bold cursor-pointer" >Instragam</h1>
+                        <h1 onClick={redirectToInstagram} className="font-bold cursor-pointer" >Instagram</h1>
                         
                     </div>
 
