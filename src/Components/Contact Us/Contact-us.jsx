@@ -19,12 +19,12 @@ export default function ContactUs() {
                     <div className="flex  p-10 flex-col justify-center items-center">
                         <img onClick={redirectToCall} className="cursor-pointer" src="assets/phone-call.png" alt="" />
                         <h1 onClick={redirectToCall} className="font-bold mb-5 cursor-pointer">Call</h1>
-                        <h1 onClick={redirectToCall} className="cursor-pointer">+91 6397848739</h1>
+                        {/* <h1 onClick={redirectToCall} className="cursor-pointer">+91 6397848739</h1> */}
                     </div>
                     <div className="flex p-10 flex-col justify-center items-center">
                         <img onClick={redirectToWhatsApp} className="cursor-pointer" src="assets/whatsapplogo.png" alt="" />
                         <h1 onClick={redirectToWhatsApp} className="font-bold mb-5 cursor-pointer">Whatsapp</h1>
-                        <h1 onClick={redirectToWhatsApp} className="cursor-pointer">+91 6397848739</h1>
+                        {/* <h1 onClick={redirectToWhatsApp} className="cursor-pointer">+91 6397848739</h1> */}
                     </div>
                     <div className="flex  p-10 flex-col justify-center items-center">
                         <img onClick={redirectToInstagram} className="cursor-pointer" src="assets/insta.png" alt="" />
