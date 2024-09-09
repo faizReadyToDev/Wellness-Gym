@@ -16,7 +16,6 @@ import Gallery from './Components/Gallery/Gallery'
 import NewGallery from './Components/Gallery/New-Gallery'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>

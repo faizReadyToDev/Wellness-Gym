@@ -47,7 +47,7 @@ export default function Home() {
                 <main>
                     <section className="sec1 flex">
                         <div className="topleft flex flex-col items-center justify-center">
-                            <div className="dumbbell">
+                            <div className="dumbbell mt-1">
                                 <img src="assets/dumbell.png" alt="" />
                             </div>
                             <h1>
@@ -56,7 +56,8 @@ export default function Home() {
                             <p>
                                 "Get fit at the best gym in town! Join now for state-of-the-art equipment, expert trainers, and a motivating environment. Your fitness journey starts here. Sign up today!"
                             </p>
-                            <div className="offer font-extrabold md:text-xl mt-5 mb-5 text-back "><span className='bg-white p-3 rounded'>Special Offer: ₹3000 for 6 Months</span></div>
+                            <div className="offer font-extrabold md:text-xl mt-5 mb-5 text-back "><span className='bg-white p-3 rounded'>Special Offer for MEN: ₹3000 for 6 Months</span></div>
+                            <div className="offer font-extrabold md:text-xl mt-5 mb-5 text-back "><span className='bg-white p-3 rounded'>Special Offer for WOMEN: ₹2500 for 6 Months</span></div>
                             <div className="deal text-center">The deal ends in <span id="demo">{today}</span></div>
                             <div className="buttons">
                                 <button onClick={redirectToWhatsApp} className="btn btn1 border-2 z-10 ring-2 ring-slate-300 hover:ring-slate-800 hover:bg-slate-200">Join now</button>
@@ -125,7 +126,7 @@ export default function Home() {
                                 <tbody>
                                     <tr>
                                         <th scope="row">Cardio</th>
-                                        <td>-</td>
+                                        <td>Yes</td>
                                         <td>Yes</td>
                                         <td>Yes</td>
                                        
@@ -166,6 +167,13 @@ export default function Home() {
                                         <td>-</td>
                                         <td>Yes</td>
                                         <td>-</td>
+                                     
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Compition Guidance</th>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>Yes</td>
                                      
                                     </tr>
     
