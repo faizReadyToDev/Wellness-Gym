@@ -158,7 +158,7 @@ export default function Home() {
                                     <tr>
                                         <th scope="row">Supplement Guidance</th>
                                         <td>-</td>
-                                        <td>-</td>
+                                        <td>Yes</td>
                                         <td>Yes</td>
                                      
                                     </tr>
@@ -170,7 +170,7 @@ export default function Home() {
                                      
                                     </tr>
                                     <tr>
-                                        <th scope="row">Compition Guidance</th>
+                                        <th scope="row">Competition Guidance</th>
                                         <td>-</td>
                                         <td>-</td>
                                         <td>Yes</td>
